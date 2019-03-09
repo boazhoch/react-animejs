@@ -7,6 +7,7 @@
     "@types/node": "11.10.5",
     "@types/react": "16.8.7",
     "@types/react-dom": "16.8.2",
+    "animejs": "^3.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
@@ -29,6 +30,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/animejs": "^2.0.2",
+    "csstype": "^2.6.3",
     "react-testing-library": "^6.0.0",
     "typedoc": "^0.14.2"
   }
