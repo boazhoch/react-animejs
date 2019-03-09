@@ -30,6 +30,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/animejs": "^2.0.2",
+    "csstype": "^2.6.3",
     "typedoc": "^0.14.2"
   }
 }
