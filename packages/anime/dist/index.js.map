@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"names":["stringer"],"mappings":";;;;;;AAAA,MAAMA,QAAQ,GAAG,QAAjB","sourcesContent":["const stringer = \"string\";\n\nexport { stringer };\n"],"file":"index.js"}
