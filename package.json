@@ -4,14 +4,14 @@
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.9",
-    "@types/node": "11.10.5",
+    "@types/node": "^11.12.2",
     "@types/react": "16.8.7",
     "@types/react-dom": "16.8.2",
     "animejs": "^3.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
-    "typescript": "3.3.3333"
+    "typescript": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,7 +21,8 @@
     "build:docs": "typedoc",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "build:pkgs": "lerna run start"
+    "build:pkgs": "lerna run build",
+    "prebuild": "tsc"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,14 +34,19 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@storybook/addon-actions": "^5.0.1",
+    "@storybook/addon-links": "^5.0.1",
+    "@storybook/addons": "^5.0.1",
+    "@storybook/react": "^5.0.1",
     "@types/animejs": "^2.0.2",
     "csstype": "^2.6.3",
     "lerna": "^3.13.1",
     "react-testing-library": "^6.0.0",
-    "typedoc": "^0.14.2",
-    "@storybook/react": "^5.0.1",
-    "@storybook/addon-actions": "^5.0.1",
-    "@storybook/addon-links": "^5.0.1",
-    "@storybook/addons": "^5.0.1"
+    "typedoc": "^0.14.2"
   }
 }

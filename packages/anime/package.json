@@ -1,7 +1,11 @@
 {
-  "name": "@components/anime",
+  "name": "anime",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "Animation component",
+  "keywords": [
+    "animation",
+    "componenet"
+  ],
   "author": "Boaz Hoch <boazmier@gmail.com>",
   "homepage": "https://github.com/boazhoch/react-animejs#readme",
   "license": "ISC",
