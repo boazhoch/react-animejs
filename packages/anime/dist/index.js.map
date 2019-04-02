@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/index.ts"],"names":["stringer"],"mappings":";;;;;;AAAA,MAAMA,QAAQ,GAAG,QAAjB","sourcesContent":["const stringer = \"string\";\n\nexport { stringer };\n"],"file":"index.js"}
+{"version":3,"sources":["../src/index.tsx"],"names":["Btn","props"],"mappings":";;;;;;;AAAA;;;;AAIA,MAAMA,GAAG,GAAIC,KAAD,IAAkB,8CAA9B;;eAEeD,G","sourcesContent":["import React from \"react\";\n\ninterface Props {}\n\nconst Btn = (props: Props) => <div>a</div>;\n\nexport default Btn;\n"],"file":"index.js"}
